@@ -1,2 +1,7 @@
-# tableau-web-data-connector-bitcoin
-Tableau Web Data Connector to get historical Bitcoin data in USD currency
+# Tableau Web Data Connector for Bitcoin data
+This Tableau Web Data Connector retrieves historical data of Bitcoin (BTC) from the API of [CryptoCompare](https://min-api.cryptocompare.com/).
+
+The Date field is given in unix time stamp - use the following calculations in Tableau to have the date in dd-mm-yyyy `DATEADD('second',[time],#1970-01-01#)`
+
+## Web Data Connector URL
+https://paoloferraiuoli.me/tableau-wdc-bitcoin/crypto.html
