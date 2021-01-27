@@ -6,6 +6,7 @@ Information obtained:
 * highest_price
 * lowest_price
 * opening_price
+* closing_price
 * volume_btc
 * volume_currency (USD)
 
