@@ -2,7 +2,7 @@
 This Tableau Web Data Connector retrieves historical data of Bitcoin (BTC) from the API of [CryptoCompare](https://min-api.cryptocompare.com/):
 
 Information obtained:
-* date
+* closing_date
 * highest_price
 * lowest_price
 * opening_price
